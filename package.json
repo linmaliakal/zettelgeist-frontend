@@ -1,5 +1,6 @@
 {
-  "name": "zg",
+  "name": "zettelgeist-frontend",
+  "author": "Morgan Richardson <morganrmarie@gmail.com> (https://www.morgancodes.co)",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
