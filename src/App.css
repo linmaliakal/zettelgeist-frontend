@@ -1,33 +1,36 @@
-.App {
+html, body {
+  background-color: #F0F0F0;
+}
+
+.doc-container {
   text-align: center;
+  width: 38vw;
+  height: 50vw;
+  background-color: white;
+  border-radius: 30px;
+  position: inline-block;
+  margin-top: 50px;
+  margin-left: 60px;
+  margin-bottom: 100px;
+  float: left;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.zettel-container {
+  text-align: center;
+  width: 50vw;
+  height: 50vw;
+  background-color: white;
+  border-radius: 30px;
+  position: inline-block;
+  margin-right: 60px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  float: right;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.doc-container-header, .zettel-container-header {
+  font-size: 35px;
+  color: #181818;
 }
